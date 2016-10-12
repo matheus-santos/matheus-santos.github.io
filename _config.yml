@@ -25,4 +25,4 @@ repository: matheus-santos/matheus-santos.github.io
 
 # Build settings
 markdown: kramdown
-theme: researcher
+theme: minima
