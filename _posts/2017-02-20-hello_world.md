@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "Welcome to Jekyll!"
-date: 2015-11-17 16:16:01 -0600
-categories: jekyll update
+title:  "Hello world! My first blog post"
+date: 2016-02-20 22:57:00 -0300
+categories: misc
 ---
 
 # Hello world!
