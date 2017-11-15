@@ -1,9 +1,6 @@
 ---
-layout: default
-title:  "The Dream Job Decision"
-date: 2017-09-26 10:37:00 -0300
-category: jobs
-comments: true
+title: "The Dream Job Decision"
+category: jobs advice
 ---
 
 # The Dream Job Decision

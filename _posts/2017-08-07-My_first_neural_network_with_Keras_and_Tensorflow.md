@@ -9,7 +9,6 @@ comments: true
 # My first neural network with Keras and Tensorflow
 ## Steps to build an NN using Keras over Tensorflow
 
-
 - Why
     + Popularity of machine learning
     + Solve hard problems with machine learning

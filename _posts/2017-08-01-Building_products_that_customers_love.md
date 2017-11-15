@@ -1,9 +1,6 @@
 ---
-layout: default
-title:  "Building products that customers love"
-date: 2017-08-01 22:18:00 -0300
+title: "Building products that customers love"
 category: tech
-comments: true
 ---
 
 # Building products that customers love
