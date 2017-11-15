@@ -1,5 +1,5 @@
 ---
-title:  "LEAN: Hit the market first and learn from it"
+title:  "Lean startup: Hit the market first and learn from it"
 category: tech advice
 ---
 
