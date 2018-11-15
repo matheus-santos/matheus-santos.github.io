@@ -1,1 +1,1 @@
-- []
+- [] 10 Must do Jekyll SEO optimizations | Step 6 (https://blog.webjeda.com/optimize-jekyll-seo)

@@ -1,28 +1,46 @@
-# ----------- CONFIGURABLE START -----------
-title:            "I am Matt"
-description:      "A journey of a thousand miles begins with a single step."
-url:              https://matheus-santos.github.io/ # Site url, without a slash at the end.
-signoff:          "matheus-santos" # Your name
-facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
+title: "I am Mat"
+description: "My name is Matheus Santos and this blog is about my life as a software engineer"
+url: https://matheus-santos.github.io # Site url, without a slash at the end.
+signoff: "matheus-santos" # Your name
+lang: en_US
+
+author:
+  picture: /images/avatar.png
+  twitter: mightyeus
+
+# Social networks
+facebook_appid: # APP ID for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
-share:            true # Turn on twitter and facebook share buttons
+share: true # Turn on twitter and facebook share buttons
+safe: false
 
+# Blog pages
 links:
-  - name:         Posts
-    url:          /
-    external:     false
-  - name:         About me
-    url:          /about
-    external:     false
-  - name:         Hire me
-    url:          /hire
-    external:     false
-# ------------ CONFIGURABLE END ------------
+  - name: Posts
+    url: /
+    external: false
+  - name: About
+    url: /about
+    external: false
+  - name: Hire
+    url: /hire
+    external: false
+  - name: Github
+    url: https://github.com/matheus-santos
+    external: true
+    target: _blank
 
-permalink:        /posts/:title
+# Post url style
+permalink: /:categories/:year/:month/:day/:title # Or posts/:title
+
+# Default values
 defaults:
   - values:
       layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
 
 plugins_dir:
   - jekyll-seo-tag

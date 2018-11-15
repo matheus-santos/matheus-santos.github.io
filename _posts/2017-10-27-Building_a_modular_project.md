@@ -1,6 +1,6 @@
 ---
 title: "Building a modular project using Domain-Driven Design mindset"
-category: tech handson laravel
+category: code
 date: 2017-10-27 19:00:00 -0300
 ---
 
@@ -32,7 +32,7 @@ Ok, so now we identified our first problem: divide by context.
 
 The second problem is the code. It is important to know what is business logic and what is infrastructure logic. Business logic is every code related to your idea like your Products Catalog or your Users List. Infrastructure logic is the code related to the structure running behind your project like Controllers, Providers and Middlewares.
 
-In order to keep as modular as possible, we shoud be aware to never mix what belongs to business to what belongs to infrastructure. This mindset will help us later when separating our project into several services (aka micro service pattern). 
+In order to keep as modular as possible, we shoud be aware to never mix what belongs to business to what belongs to infrastructure. This mindset will help us later when separating our project into several services (aka micro service pattern).
 
 Want a example? Here it goes. Imagine we are working on `ProductsController` and we need to put and authorization step to ensure the user can edit a item. A natural way to do this is putting the auth code directly into the controller:
 
@@ -71,7 +71,7 @@ public function deleteItem() {
 
 Noticed the repeated code? If had to change something we would have to replace in every method of every controller so in order to keep it short and clean, we could put the authorization step into an `UserService` and work from there instead of messing with our controllers endpoints.
 
-Now, how to solve these two problems stated above? That's when the DDD enters. Changing our mindset from function based to context based will allow us to put bounds among concerns, making the project clean and little easier to handle. 
+Now, how to solve these two problems stated above? That's when the DDD enters. Changing our mindset from function based to context based will allow us to put bounds among concerns, making the project clean and little easier to handle.
 
 The best part is since Doman-Driven Design is a way to structure your code, it is agnostic and can be (and should be) used in every language. If you don't like PHP or your job requires a specific set of tools you still can apply these thoughts! Awesome isn't?
 
@@ -81,7 +81,7 @@ In this article I will give you a brief context of Domain-Driven Design and talk
 
 Domain-Driven Design is all about design and creating highly expressive models. DDD also aims to create models that are understandable by everyone involved in the software development, not just software developers.
 
-The trick here is to design your code in a way that a non-developer could understand. In DDD, it is less about the nouns and verbs and more about the concepts. When you talk the same language as the domain experts the work becomes more creative and straightforward for both sides. 
+The trick here is to design your code in a way that a non-developer could understand. In DDD, it is less about the nouns and verbs and more about the concepts. When you talk the same language as the domain experts the work becomes more creative and straightforward for both sides.
 
 Usually we would create the models and the endpoints would be operations (post, patch, delete, get) to access these models. Pretty straightforward. In DDD we add a layer between the controller and the models, centralizing our logic in it. These classes we will call services. A service provides methods that abstract what we have on our data structure and transform in something more palatable for the expert domains which know nothing about coding.
 
@@ -169,7 +169,7 @@ class ProductRepository extends BaseRepository {
 
 ```
 
-As I said earlier, this layer make communication between controllers (infrastructure) and models (our business logic) clearly separated and this way we have more control on what is going on in the project. If we have chosen otherwise we would tempted to use the ORM directly in the controller's functions making things difficult maintain in the long run. 
+As I said earlier, this layer make communication between controllers (infrastructure) and models (our business logic) clearly separated and this way we have more control on what is going on in the project. If we have chosen otherwise we would tempted to use the ORM directly in the controller's functions making things difficult maintain in the long run.
 
 ## The new tree structure
 
@@ -244,10 +244,10 @@ class ProductService {
 
         // Create a product
         $newProduct = $this->productRepository->create($attributes);
-        
+
         // Send email to all users
         $this->emailService->newProductCreated(
-            $product, 
+            $product,
             $this->userRepository->all()
         );
     }

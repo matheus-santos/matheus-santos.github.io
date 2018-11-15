@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "Thoughts on building a solid REST API"
+title: "Thoughts on building a solid REST API"
 date: 2018-08-30 08:47:00 -0300
-categories: code tutorial architecture
+categories: code
 comments: true
 ---
 
@@ -29,9 +29,10 @@ So, start by defining your main domains and its endpoints. Using the user/produc
 
 This works best when your software is designed using the Domain-driven-development (DDD) principle. If you never heard before, check [this article](Building_a_modular_project) where I talk a little about this principle and baby steps on how to get started.
 
-Ok, we still have to define our endpoints and our methods. The most common methods for a simple endpoint are GET, POST, PATCH and DELETE. Use use PATCH instead of PUT here because PUT is primarily to update existing resource and may work as an `upsert` method while PUTCH gives us the ability to make partial update on a resource [[1]](#). 
+Ok, we still have to define our endpoints and our methods. The most common methods for a simple endpoint are GET, POST, PATCH and DELETE. Use use PATCH instead of PUT here because PUT is primarily to update existing resource and may work as an `upsert` method while PUTCH gives us the ability to make partial update on a resource [[1]](#).
 
 So you will end up with:
+
 ```
 GET /api-v1/commerce/users
 GET /api-v1/commerce/users/:id
@@ -79,9 +80,9 @@ Now that we have chosen our tech it is time to set up some conventions and best 
 
 An specification is a document that provides how the endpoint should expose its entities and also comes with a list of response protocols and headers that helps with cache, formatting and decision-making by client side.
 
-Two commons specifications that I grew to love work with are [HAL](http://stateless.co/hal_specification.html) and [JSON:API](http://jsonapi.org/). 
+Two commons specifications that I grew to love work with are [HAL](http://stateless.co/hal_specification.html) and [JSON:API](http://jsonapi.org/).
 
-As a front-end developer I used to struggle a lot working with different formats and trying to figure out how to navigate and link these entities. 
+As a front-end developer I used to struggle a lot working with different formats and trying to figure out how to navigate and link these entities.
 
 So choose a specification and stick to it. This will pay very well in the future with a concise API.
 
@@ -102,17 +103,17 @@ Keep in mind that they have different necessities so basically you will end up w
 
 Why have formal documents? First, writing the decisions down is essential. Only when one writes do the gaps appear and the inconsistencies protrude. The act of writing turns out to require hundreds of mini-decisions, and it is the existence of these that distinguishes clear, exact policies from fuzzy ones.
 
-Second, to "spread the word". The manager's fundamental job is to keep everybody going in the same direction, his chief daily task is communication  and these documents will immensely lighten the load.
+Second, to "spread the word". The manager's fundamental job is to keep everybody going in the same direction, his chief daily task is communication and these documents will immensely lighten the load.
 
 Finally, documents give him a data base and checklist. By reviewing them periodically the team can sees where they are and where they and how to navigate.
 
 # Conclusion
 
-This are a checklist that works very well when designing your RESTful API and it is generic enough to apply to other projects like [GraphQL](https://graphql.org/) and [gRPC](https://grpc.io/). 
+This are a checklist that works very well when designing your RESTful API and it is generic enough to apply to other projects like [GraphQL](https://graphql.org/) and [gRPC](https://grpc.io/).
 
-Try to keep your design clear and concise and prepare for scale by using the [DDD](Building_a_modular_project) principle. 
+Try to keep your design clear and concise and prepare for scale by using the [DDD](Building_a_modular_project) principle.
 
-If you are building an prototype to prove your concept go for a easier language and use a framework to boost up your productivity. 
+If you are building an prototype to prove your concept go for a easier language and use a framework to boost up your productivity.
 
 Use a REST client to document your endpoints and easily share with your colleagues.
 
@@ -125,4 +126,4 @@ Any thoughts on this? You can reach my by e-mail or in the comment box below.
 - HAL - Hypertext Application Language; [http://stateless.co/hal_specification.html](http://stateless.co/hal_specification.html)
 - O'Reilly; "RESTful Web APIs" by Leonard Richardson, Sam Ruby, Mike Amundsen; [http://shop.oreilly.com/product/0636920028468.do](http://shop.oreilly.com/product/0636920028468.do)
 - Wrox; "Patterns, Principles, and Practices of Domain-Driven Design"
-by Scott Millett, Nick Tune; [http://www.wrox.com/WileyCDA/WroxTitle/Patterns-Principles-and-Practices-of-Domain-Driven-Design.productCd-1118714709.html](http://www.wrox.com/WileyCDA/WroxTitle/Patterns-Principles-and-Practices-of-Domain-Driven-Design.productCd-1118714709.html)
+  by Scott Millett, Nick Tune; [http://www.wrox.com/WileyCDA/WroxTitle/Patterns-Principles-and-Practices-of-Domain-Driven-Design.productCd-1118714709.html](http://www.wrox.com/WileyCDA/WroxTitle/Patterns-Principles-and-Practices-of-Domain-Driven-Design.productCd-1118714709.html)
