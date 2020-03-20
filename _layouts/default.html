@@ -13,7 +13,7 @@
 
     {% include head.html %}
 
-    <!-- SEO-->
+    <!-- SEO -->
 
     {% seo %}
 
@@ -27,6 +27,14 @@
         itemprop="description" 
         name="description" 
     />
+
+    <!-- Google Site Verification -->
+
+    {% if site.google_site_verifiation %}
+        <meta name="google-site-verification" content="{{site.google_site_verifiation}}">
+    {% endif %}
+
+    <!-- End -->
 </head>
 
 <body class="lh-copy dark-gray pa0 f6 sans-serif bg-super-white">

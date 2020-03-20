@@ -4,15 +4,17 @@ url: https://matheus-santos.github.io # Site url, without a slash at the end.
 signoff: "matheus-santos" # Your name
 lang: en_US
 
-author:
-  picture: /images/avatar.png
-  twitter: mightyeus
-
 # Social networks
 facebook_appid: # APP ID for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
 share: true # Turn on twitter and facebook share buttons
 safe: false
+
+# SEO
+author:
+  picture: /images/avatar.png
+  twitter: mightyeus
+google_site_verifiation: 4bRM1dE_exyvOWlrpGFH8ZybAPqEItxSPFATSwe0n5o
 
 # Blog pages
 links:
