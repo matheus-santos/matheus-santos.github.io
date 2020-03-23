@@ -22,7 +22,7 @@ Ok, so let's get the ingredients. I assume you already know a little bit of Pyth
 
 The first part I will explain what is a neural network and basically how to use it. The second part we will use the classic example of ["Iris Data Set"](http://archive.ics.uci.edu/ml/datasets/Iris) and build our pipeline to classify a iris plant. Third and last part we discuss some key points to improve the project and where to go next.
 
-# What is a neural network
+## What is a neural network
 
 Artificial neural networks (ANN) are computing systems inspired by the biological neural networks that constitute animal brains and it is not a new thing. Warren McCulloch and Walter Pitts (1943) created a computational model for neural networks based on mathematics and algorithms called threshold logic. This concepts were a little frozen since because it lacks the required computational power to deal with the many calculations and backpropagation. That is why it is so popular nowadays: thanks to advance of technology and cloud services we have limitless power to work with these concepts.
 
@@ -34,17 +34,17 @@ That is it. We basically use ANNs to help us classify a group of features that a
 
 Now that we have a basic grasp of what is a neural network, I will present you an example on how to build and interpret one using the classic example Iris Plant by UCI Machine Learning Repository [[1]](https://archive.ics.uci.edu/ml/datasets/iris).
 
-# Classifying iris plant with Keras and TensorFlow
+## Classifying iris plant with Keras and TensorFlow
 
 To help us build these complex classifiers
 
-## Enter TensorFlow
+### Enter TensorFlow
 
-## Enter Keras
+### Enter Keras
 
-# Next steps
+## Next steps
 
-# References
+## References
 
 - [1] Fisher, 1936. [UCI Machine Learning Repository - Iris Plant](https://archive.ics.uci.edu/ml/datasets/iris).
 

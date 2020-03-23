@@ -16,7 +16,7 @@ Today I would like to share with you some tips on how to build a solid RESTful A
 
 For the sake of simplicity, we will talk about a very common function that almost every API has: user and product flow (registration, exploration, deletion).
 
-# 1. Start by design
+## 1. Start by design
 
 This is the most important step when designing and implementing an API. It consists of preparing documents that describes how entities should be exposed and the relationship with each other. As for me I strongly believe that an API should reflect its database design. What I mean by that is that the end your API is a way to clients iterate with your database, so why not cut complexity and make it look like your model-entity-relationship? Works like a charm.
 
@@ -51,11 +51,11 @@ This list works as a checklist and make it easier to define objective tasks to d
 
 The point is that building your model first helps us to see more clearly the relationships and responsibilities of each domain and entity.
 
-# 2. Choose your tools
+## 2. Choose your tools
 
 Now that we have an abstract plan, it is time to choose our weapons. That is a very difficult choice for some because we have a very wide range of options but as a rule of thumb try to keep it simple and choose what you are used to.
 
-## Language / Framework
+### Language / Framework
 
 This is fun. Choosing a language to work with is always a though choice and it is even harder when you have to choose a framework too. But if our design is okay and the domains are well settled and documented we can always scale to something more robust or that meets specific needs. Of course the final choice will decided with the team, so always have this in mind:
 
@@ -65,7 +65,7 @@ This is fun. Choosing a language to work with is always a though choice and it i
 
 Avoid changing all at once because this will increase time to launch your alpha version.
 
-## REST client
+### REST client
 
 Since we are building an API it is nice to have at hand some tool to make requests and render responses. As for me I would recommend one of these tools:
 
@@ -74,7 +74,7 @@ Since we are building an API it is nice to have at hand some tool to make reques
 
 Really, both of them are good and you cant go wrong.
 
-# 3. Choose your API specification
+## 3. Choose your API specification
 
 Now that we have chosen our tech it is time to set up some conventions and best practices. A software that is consistent and well formatted is easier to read and explore therefore is much more likable to work with.
 
@@ -86,13 +86,13 @@ As a front-end developer I used to struggle a lot working with different formats
 
 So choose a specification and stick to it. This will pay very well in the future with a concise API.
 
-# 4. Tests and mocks
+## 4. Tests and mocks
 
 With our specification set we know exactly the data structure that is being sent and received. It becomes very useful if the project has both client side and server side being developed at same time. Sometimes the front-end developer gets stuck because there's no endpoint to access but then you can provide the general idea and give him to use while the back-end is being finished.
 
 There are different ways to mock your server both from client and server side but since we know what to expect it is easier to propagate and apply.
 
-# 5. Wrap all up with a sweet process and user documentation
+## 5. Wrap all up with a sweet process and user documentation
 
 Hopefully if you reach this point you already have a tight API to explore and communicate. But it is important to tell the story and write a guide to your users and devs about your application. It is importante to note that we have two different actors on the scene:
 
@@ -107,7 +107,7 @@ Second, to "spread the word". The manager's fundamental job is to keep everybody
 
 Finally, documents give him a data base and checklist. By reviewing them periodically the team can sees where they are and where they and how to navigate.
 
-# Conclusion
+## Conclusion
 
 This are a checklist that works very well when designing your RESTful API and it is generic enough to apply to other projects like [GraphQL](https://graphql.org/) and [gRPC](https://grpc.io/).
 
@@ -119,7 +119,7 @@ Use a REST client to document your endpoints and easily share with your colleagu
 
 Any thoughts on this? You can reach my by e-mail or in the comment box below.
 
-# References and further readings
+## References and further readings
 
 - [1] REST API Tutorial; "HTTP Methods"; [https://restfulapi.net/http-methods/](https://restfulapi.net/http-methods/)
 - JSON:API; [http://jsonapi.org/](http://jsonapi.org/)

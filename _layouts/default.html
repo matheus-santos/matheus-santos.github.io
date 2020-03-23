@@ -7,9 +7,9 @@
 
 <head>
 
-    <title>
+    {% comment %} <title>
         {%if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}
-    </title>
+    </title> {% endcomment %}
 
     {% include head.html %}
 
@@ -17,16 +17,16 @@
 
     {% seo %}
 
-    <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+    {% comment %} <link rel="canonical" href="{{ page.url | prepend: site.url }}">
 
     <meta content='{%if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}' name='title' />
-    <meta content='{%if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}' name='og:title' />
+    <meta content='{%if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}' name='og:title' /> {% endcomment %}
 
-    <meta 
+    {% comment %} <meta 
         content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" 
         itemprop="description" 
         name="description" 
-    />
+    /> {% endcomment %}
 
     <!-- Google Site Verification -->
 
@@ -34,7 +34,7 @@
         <meta name="google-site-verification" content="{{site.google_site_verifiation}}">
     {% endif %}
 
-    <!-- End -->
+    <!-- End SEO -->
 </head>
 
 <body class="lh-copy dark-gray pa0 f6 sans-serif bg-super-white">
