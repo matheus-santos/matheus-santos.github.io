@@ -9,3 +9,8 @@ bundle exec jekyll serve -w
 
 bundle exec jekyll build
 ```
+
+# SEO
+
+- [Search Console](https://search.google.com/search-console?resource_id=https%3A%2F%2Fmatheus-santos.github.io%2F)
+- [Sitechecker Pro](https://sitechecker.pro/app/main/project/725689/audit/issues?filters=45)
