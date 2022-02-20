@@ -1,0 +1,16 @@
+current directory: /Users/matheus/Documents/Workspace/github.com/matheus-santos/matheus-santos.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/local/opt/ruby@2.7/bin/ruby -I /usr/local/Cellar/ruby@2.7/2.7.5/lib/ruby/2.7.0 -r ./siteconf20220220-30762-1ocu2ry.rb extconf.rb
+creating Makefile
+
+current directory: /Users/matheus/Documents/Workspace/github.com/matheus-santos/matheus-santos.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /Users/matheus/Documents/Workspace/github.com/matheus-santos/matheus-santos.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/matheus/Documents/Workspace/github.com/matheus-santos/matheus-santos.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20220220-30762-m5t1ph
