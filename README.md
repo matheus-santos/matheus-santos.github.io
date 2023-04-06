@@ -10,8 +10,6 @@ I live in Brazil and love to build amazing things. You should totally follow me 
 bundle exec jekyll serve -w
 
 bundle exec jekyll build
-
-
 ```
 
 # SEO
