@@ -7,5 +7,3 @@ description: Learning from Failure
 ---
 
 # Learning from Failure
-
-Hello world
