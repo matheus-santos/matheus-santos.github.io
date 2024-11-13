@@ -10,7 +10,7 @@ tags:
 
 <img src="/images/posts/79E96BD0-8358-4EEA-9F1F-CE1E8A8E9FA9/9FEEA64F-4EBF-41CE-997B-3B459D42C923.jpg" width="590" alt="Kids playing with blocks"/>
 
-> “Your first 10,000 photographs are your worst.”
+> _“Your first 10,000 photographs are your worst.”_
 ― Henri Cartier-Bresson
 
 I always loved this quote. Although Henri Cartier-Bresson was referring to a different craft (photography), it still resonates deeply right from the start. It is a powerful philosophy which I live by and try to apply in every project that I'm involved with.
@@ -27,7 +27,7 @@ Just as we have routine fire drills and other emergency preparedness training in
 
 Beyond preparation, there is another essential factor for improvement: the culture of reflection through postmortem documents. The concept of a postmortem is well-known in the technology industry. A postmortem is a written record of an incident, its impact, the actions taken to mitigate or resolve it, the root cause(s), and the follow-up actions to prevent the incident from recurring.
 
-- Check it out the [template I use for postmortems](https://github.com/matheus-santos/Architecture/blob/master/templates/0000-postmortem-template.md)
+- Check it out the <a href="https://github.com/matheus-santos/Architecture/blob/master/templates/0000-postmortem-template.md" target="_blank">template I use for postmortems</a>.
 
 Today, I would like to talk about conducting postmortems, its best practices and tips on how to cultivate a postmortem culture.
 
@@ -37,8 +37,8 @@ The purpose of a postmortem is to ensure the incident is properly documented, th
 
 Writing a postmortem is not a punishment and should not be used to assign blame. Instead, we should view it as an opportunity to learn and improve the entire company. The document should be a collaborative process that encourages knowledge sharing across the board.
 
-> The primary goal should be collaborate and share knowledge.
-> Avoid blame and keep it constructive.
+> _"The primary goal should be collaborate and share knowledge._<br/>
+> _Avoid blame and keep it constructive."_
 
 Once we established our mindset towards a blameless and constructive experience, we can move forward and start digging the problem. It is important to note that not all incidents should be accompanied by a postmortem. Postmortems take time to write and deliberate, so each team should ponder whether makes sense to go through the exercise. In my experience, it makes sense to write it down when:
 
@@ -57,7 +57,7 @@ With this in mind, we proceed to create a live document - the postmortem - to re
 
 Being honest and transparent while we solve the incident is vital. The live document help us communicate clearly with the people being impacted and also invites the team to weight in and help us move fast with the solution.
 
-Other methods to reach out to impacted people, especially users and partners, could be: emails, a service status page ([like Github's](https://www.githubstatus.com/)), and official accounts on social media platforms.
+Other methods to reach out to impacted people, especially users and partners, could be: emails, a service status page (<a href="https://www.githubstatus.com/" target="_blank">like Github's</a>), and official accounts on social media platforms.
 
 Another aspect in which the live document shines is assisting in coordinating with multiple parties. Having a single source of truth help us coordinate efforts and share knowledge in an organized manner, also keeping everyone on the loop.
 
@@ -91,7 +91,7 @@ Cultivating a postmortem culture can be very challenging, but is worth it. Thank
 
 Here's the template I use for you to get started:
 
-- [Postmortem Template File](https://github.com/matheus-santos/Architecture/blob/master/templates/0000-postmortem-template.md)
+- <a href="https://github.com/matheus-santos/Architecture/blob/master/templates/0000-postmortem-template.md" target="_blank">Postmortem Template File</a>
 
 In short, these are the best practices when conducting a postmortem:
 
