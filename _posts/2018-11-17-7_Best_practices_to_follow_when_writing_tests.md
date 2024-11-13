@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "7 Best practices to follow when writing tests"
-categories: code
+category: Code
 comments: true
 ---
 

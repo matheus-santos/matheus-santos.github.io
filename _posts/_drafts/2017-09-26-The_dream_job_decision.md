@@ -1,6 +1,6 @@
 ---
 title: "The Dream Job Decision"
-category: jobs advice
+category: Job Advice
 ---
 
 # The Dream Job Decision

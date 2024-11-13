@@ -1,6 +1,6 @@
 ---
 title: "Learning concepts of Domain-Driven Design"
-category: tech handson
+category: Software
 ---
 
 Hey folks, Matt here.

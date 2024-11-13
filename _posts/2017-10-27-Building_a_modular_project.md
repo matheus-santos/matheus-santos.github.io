@@ -1,6 +1,6 @@
 ---
 title: "Building a modular project using Domain-Driven Design mindset"
-category: code
+category: Code
 date: 2017-10-27 19:00:00 -0300
 ---
 

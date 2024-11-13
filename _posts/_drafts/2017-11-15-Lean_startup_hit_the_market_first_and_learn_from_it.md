@@ -1,6 +1,6 @@
 ---
 title:  "Lean startup: Hit the market first and learn from it"
-category: tech advice
+category: Startup
 ---
 
 ## Lean startup basics and the cycle of constant improvement 

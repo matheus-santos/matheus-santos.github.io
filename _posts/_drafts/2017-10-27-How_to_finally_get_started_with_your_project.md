@@ -1,6 +1,6 @@
 ---
 title:  "How to finally get started with your project"
-category: tech handson advice
+category: Software
 ---
 
 # How to finally get started with your project

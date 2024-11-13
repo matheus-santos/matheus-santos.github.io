@@ -1,6 +1,6 @@
 ---
 title: "Code smells and the lessons I learned"
-category: software
+category: Software
 date: 2020-12-04 15:41:00 -0300
 comments: true
 description: Code is a craft that takes patience and practice to master. This particular collection of thoughts may help you identify bad practices that cause you problems and guide your team towards a better planning and change decisions in your product.

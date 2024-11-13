@@ -3,8 +3,7 @@ author: "Matheus Santos"
 layout: default
 title: "Grow, not build, software"
 description: "Think about your project as a living organism that develops and grows overtime. Be swift and effective in your decisions and grow, not build, software."
-
-categories: mindset
+category: Advice
 comments: true
 ---
 

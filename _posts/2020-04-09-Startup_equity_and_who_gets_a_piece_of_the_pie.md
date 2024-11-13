@@ -1,6 +1,6 @@
 ---
 title: "Startup equity and who gets a piece of the pie"
-category: startup
+category: Startup
 date: 2020-04-09 20:38:00 -0300
 comments: true
 description: Startup equity is one those things that every startup founder and co-founder may struggle at the beginning. Lets talk about equity, shares, options, fair market value, vesting and business.

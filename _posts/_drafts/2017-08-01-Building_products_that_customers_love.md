@@ -1,6 +1,6 @@
 ---
 title: "Building products that customers love"
-category: tech
+category: Startup
 ---
 
 # Building products that customers love

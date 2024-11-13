@@ -2,7 +2,7 @@
 layout: default
 title: "Thoughts on building a solid REST API"
 date: 2018-08-30 08:47:00 -0300
-categories: code
+category: Code
 comments: true
 ---
 

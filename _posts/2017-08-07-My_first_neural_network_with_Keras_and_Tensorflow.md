@@ -2,7 +2,7 @@
 layout: default
 title: "My first neural network with Keras and Tensorflow"
 date: 2017-08-07 22:25:00 -0300
-categories: machine-learning
+category: Machine Learning
 comments: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 title:  "The Programming Language Framework Dilemma"
-category: tech handson advice
+category: Software
 ---
 
 ## Choosing a solid framework to start you prototype
