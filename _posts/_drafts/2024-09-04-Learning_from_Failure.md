@@ -17,17 +17,34 @@ And in the same way as with photographs, your 10,000 deploys will be your worst.
 
 But once the damage is done, what should we do? How do we handle this kind of situation and how do we prevent this from ever happen again?
 
-<!-- TODO: Translate text to English -->
+The magic word here is: preparation.
 
-The magic word here is: preparation. <> Da mesma forma que nós temos treinamentos rotineiros de incêndio e outras situações adversas no escritório, nós também temos que nos preparar para situações adversas com o sistema em produção, e mais ainda, com nosso ciclo de vida do software.
+Just as we have routine fire drills and other emergency preparedness training in the office, we also need to prepare for adverse situations with our production system, and even more importantly, pay attention to our software lifecycle.
 
-E além da preparação, existe um outro fator essencial para o aperfeiçoamento do processo e aprendizado: a cultura de reflexão por meio de relatórios *postmortems*. O conceito de postmortem é bem conhecido na indústria de tecnologia [All12]. Um postmortem é um registro escrito de um incidente, seu impacto, as ações tomadas para mitigá-lo ou resolvê-lo, a(s) causa(s) raiz e as ações de acompanhamento para evitar que o incidente se repita.
+Beyond preparation, there is another essential factor for process improvement and learning: the culture of reflection through post-mortem reports. The concept of a post-mortem is well-known in the technology industry. A post-mortem is a written record of an incident, its impact, the actions taken to mitigate or resolve it, the root cause(s), and the follow-up actions to prevent the incident from recurring.   
 
-No post de hoje, vamos descrever os critérios para decidir quando conduzir postmortems, algumas práticas recomendadas em torno de postmortems e dicas sobre como cultivar uma cultura postmortem com base na experiência que adquirimos ao longo dos anos.
+Today, I would like to describe the criteria for deciding when to conduct post-mortems, best practices around post-mortems, and tips on how to cultivate a post-mortem culture based on my experience as an engineer over the years.
 
-**O que fazer quando um incidente é detectado?**
+## The Postmortem Philosophy
 
-<!-- TODO: Stopped here! -->
+The purpose of a postmortem is to ensure the incident is properly documented and that we were able to understand the root causes and define a roadmap for a definitive solution - and if appropriate - a change in culture as well.
+
+Writing a postmortem is not a punishment and should not be used to assign blame. Instead, we should view it as an opportunity to learn and improve the entire company. The document should be a collaborative process that encourages knowledge sharing across the board.
+
+> The primary goal should be collaborate and share knowledge.
+> Avoid blame and keep it constructive.
+
+Once we established our mindset towards a blameless and constructive experience, we can move forward and start digging the problem. It is important to note that not all incidents should be accompanied by a postmortem. Postmortems take time to write and deliberate, so each team should ponder whether makes sense to go through the exercise. In my experience, it makes sense to write it down when:
+
+- We had to intervene in the process by any means, like rolling back a version or rerouting traffic.
+- User has been impacted beyond a certain threshold
+- Resolution time is going to take longer than our tolerance rate
+- There was data loss of any kind
+
+<!-- STOPPED HERE -->
+<!-- Collaborate and Share Knowledge -->
+
+## What to do when haywire
 
 <!--
 1. Recuperar imediatamente o serviço: reverter a versão, subir um servidor extra, apontar para outro servidor; o importante é encontrar uma solução rápida que dê tempo para o time investigar a causa do problema.
@@ -38,10 +55,31 @@ No post de hoje, vamos descrever os critérios para decidir quando conduzir post
 6. Apresentar próximos passos para o time e para os afetados pelo incidente (ser honesto e transparente)
 -->
 
+Like every debugging process...
+
+<!-- Best Practice: No Postmortem Left Unreviewed -->
+<!-- Introducing a Postmortem Culture -->
+<!-- Best Practice: Visibly Reward People for Doing the Right Thing -->
+<!-- Best Practice: Ask for Feedback on Postmortem Effectiveness -->
+<!-- Conclusion -->
+<!-- Share postmortem template example: https://sre.google/sre-book/example-postmortem/ -->
+
+
+An atmosphere of blame risks creating a culture in which incidents and issues are swept under the rug, leading to greater risk for the organization [Boy13].
+
+You can’t "fix" people, but you can fix systems and processes to better support people making the right choices when designing and maintaining complex systems.
+
+## Conclusion
+
+1. Avoid Blame and Keep It Constructive
+2. No Postmortem Left Unreviewed
+3. Visibly Reward People for Doing the Right Thing
+4. Ask for Feedback on Postmortem Effectiveness
 
 ## References
 
 -  [All12] J. Allspaw, "Blameless PostMortems and a Just Culture", blog post, 2012.
+-  [Boy13] P. G. Boysen, ["Just Culture: A Foundation for Balanced Accountability and Patient Safety"](https://pmc.ncbi.nlm.nih.gov/articles/PMC3776518/), in The Ochsner Journal, Fall 2013.
 
 <!-- TODO: Add link to Postmortem template (https://github.com/matheus-santos/Architecture/blob/master/templates/0000-postmortem-template.md) in matheus-santos/Architecture-Open -->
 
