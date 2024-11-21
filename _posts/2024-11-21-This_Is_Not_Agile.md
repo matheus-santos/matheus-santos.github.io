@@ -12,12 +12,16 @@ tags:
 
 _<center>🔈You can listen to this article by clicking on the play button below. I hope you enjoy!</center>_
 
+<!--
 <iframe
    frameborder="0"
    width="100%"
    height="75"
    src="https://drive.google.com/file/d/1gkwg4z7Z2xBCMIqWVQP2_PIJg15Yp8cI/preview">
 </iframe>
+-->
+
+<iframe width="100%" height="125" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1964121967&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/matheus-cesario-2" title="Matheus Cesario" target="_blank" style="color: #cccccc; text-decoration: none;">Matheus Cesario</a> · <a href="https://soundcloud.com/matheus-cesario-2/detecting_agile_bs" title="Detecting_Agile_BS" target="_blank" style="color: #cccccc; text-decoration: none;">Detecting_Agile_BS</a></div>
 
 Agile is a buzzword of software development, and so nowadays all software development projects are, almost by default, declared to be "agile".
 
@@ -91,3 +95,7 @@ For a team working on agile, the answer to all of these questions should be "yes
 It is strange how "Agile" can be something so simple and yet so complex to describe. Collaborating in rapid cycles of incremental changes while actively listening to feedback is the most powerful tool I know to navigate uncertainties and grow to the right direction.
 
 Do not let yourself go and get stuck behind rigid processes that hinder growth and bring morale down. Focus on people. People will never go out of business.
+
+Hope you enjoyed the conversation of today.
+
+See you next time!
